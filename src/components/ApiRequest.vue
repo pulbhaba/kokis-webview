@@ -39,7 +39,7 @@
       </table>
     </div>
 
-    <div v-if="method === 'POST' || method === 'PUT'">
+    <div v-if="localMethod === 'POST' || localMethod === 'PUT' || localMethod === 'PATCH'">
       <label for="body">Request Body (JSON):</label>
       <textarea id="body" v-model="localBody" placeholder="Enter request body in JSON format" rows="4"></textarea>
     </div>
