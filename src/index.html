@@ -4,12 +4,12 @@
 <head>
     <title>API Runner</title>
     <script>
-        window.apiRequest = JSON.stringify({
+        window.apiRequest = {
             url: 'https://example.com',
-            method: 'GET',
-            headers: [{ key: 'Authorization', value: 'Bearer your_token_here' }],
-            body: ''
-        });
+            method: 'POST',
+            headers: [{ key: 'Authorization', value: 'Bearer base64(portal:topsecret)' }],
+            body: '{}'
+        };
     </script>
 </head>
 

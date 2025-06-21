@@ -20,7 +20,7 @@
 	// "remoteUser": "root"
 	// mounts .npmrc
 	"mounts": [
-		"source=${env:HOME}${env:USERPROFILE}/.zsh_aliases,target=/home/node/.bash_aliases,type=bind", // bind your aliases
+		// "source=${env:HOME}${env:USERPROFILE}/.zsh_aliases,target=/home/node/.bash_aliases,type=bind", // bind your aliases
 		// "source=${env:HOME}${env:USERPROFILE}/.bash_aliases,target=/home/node/.bash_aliases,type=bind", // bind your aliases
 		"source=${env:HOME}${env:USERPROFILE}/.ssh,target=/home/node/.ssh,type=bind", // bind your private key - be careful here
 		"source=${env:HOME}${env:USERPROFILE}/.gitconfig,target=/home/node/.gitconfig,type=bind" // bind your gitconfig
