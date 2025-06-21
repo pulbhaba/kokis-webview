@@ -3,6 +3,14 @@
 
 <head>
     <title>API Runner</title>
+    <script>
+        window.apiRequest = JSON.stringify({
+            url: 'https://example.com',
+            method: 'GET',
+            headers: [{ key: 'Authorization', value: 'Bearer your_token_here' }],
+            body: ''
+        });
+    </script>
 </head>
 
 <body>

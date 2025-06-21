@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ApiRequest :url="requestData.url" :method="requestData.method" :body="requestData.body" @fetch-response="updateResponse" />
+    <ApiRequest :url="requestData.url" :method="requestData.method" :headers="requestData.headers" :body="requestData.body" @fetch-response="updateResponse" />
     <Response :response="responseData" />
   </div>
 </template>
